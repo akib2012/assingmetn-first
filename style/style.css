@@ -201,3 +201,32 @@ main{
 .focus-p{
     padding: 20px 0px;
 }
+.focus-btn{
+    margin-bottom: 20px;
+}
+/* .focus-img{
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+} */
+
+.focus-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.focus-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
