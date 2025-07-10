@@ -21,6 +21,8 @@ body{
   font-style: normal;
 }
 
+/* class="raleway-font" */
+
 
 /* shared design */
 .primary-button{
@@ -243,14 +245,70 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
 }
 .get-touch form{
     display: flex;
     flex-direction: column;
+    margin-top: -70px;
 }
 .touch-h1{
     font-weight: bold;
     font-size: 97px;
+}
+.get-touch form label{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    
+    
+
+}
+.get-touch input[type="text"]{
+    height: 50px;
+    width: 470px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+textarea{
+    height: 120px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.get-touch input[type="submit"]{
+    height: 50px;
+    background: #4E47FF;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 19px;
+}
+textarea::placeholder{
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+input[type="submit"][value] {
+  color: white;
+  font-size: 17px;
 }
 
 
