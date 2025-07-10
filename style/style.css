@@ -276,6 +276,11 @@ main {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.fotter-name h5,p{
+    color: #252432;
+    font-size: 18px;
+    text-decoration: none;
+}
 
 
 
