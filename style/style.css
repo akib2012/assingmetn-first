@@ -230,3 +230,27 @@ main{
     display: block;
     object-fit: cover;
 }
+
+
+
+/* get-touch-part */
+
+.get-touch{
+    margin-top: 92px;
+    height: 635px;
+    padding: 0px 60px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-touch form{
+    display: flex;
+    flex-direction: column;
+}
+.touch-h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+
+
