@@ -77,7 +77,16 @@ header {
 .logo {
     font-size: 34px;
     font-weight: 900;
-    color: #4E47FF;
+    height: 70px;
+    width: 80px;
+   
+    border-radius: 32px;
+    /*color: #4E47FF;
+    */:;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
 }
 
 .banner-desing {
@@ -402,6 +411,7 @@ textarea {
     height: 120px;
     margin-bottom: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .get-touch input[type="submit"] {
@@ -443,7 +453,7 @@ input[type="submit"][value] {
     font-size: 17px;
 }
 
-/* logo-last part here */
+/* logo-last part here  footer*/
 
 .logo-last {
     margin-top: 30px;
